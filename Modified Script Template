@@ -1,10 +1,11 @@
-tell application id "com.figure53.qlab.4"
+tell application "QLab"
 	tell front workspace
-		-- set spotifyLink to notes of cue "SPOTIFY | Sunday"
-		-- set spotifyLink to notes of cue "SPOTIFY | Youth"
-		-- set spotifyLink to notes of cue "SPOTIFY | Español"
-		-- set spotifyLink to notes of cue "SPOTIFY | Vibes"
-		-- set spotifyLink to notes of cue "SPOTIFY | 21 Days"
+		-- set spotifyLink to notes of cue "SPOT-SUN"
+		-- set spotifyLink to notes of cue "SPOT-ESP"
+		-- set spotifyLink to notes of cue "SPOT-VIB"
+		-- set spotifyLink to notes of cue "SPOT-YTH"
+		-- set spotifyLink to notes of cue "SPOT-21"
+		-- set spotifyLink to notes of cue "SPOT-21WALK"
 	end tell
 end tell
 
