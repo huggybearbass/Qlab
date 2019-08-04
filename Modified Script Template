@@ -1,9 +1,10 @@
 -- tell application id "com.figure53.qlab.4"
 tell front workspace
-	set sundayLink to notes of cue "SundayLink"
-	set youthLink to notes of cue "YouthLink"
-	set espanolLink to notes of cue "EspanolLink"
-	set vibesLink to notes of cue "VibesLink"
+	set spotifyLink to notes of cue "sundayLink"
+	set spotifyLink to notes of cue "youthLink"
+	set spotifyLink to notes of cue "espanolLink"
+	set spotifyLink to notes of cue "vibesLink"
+	set spotifyLink to notes of cue "twentyOneDaysLink"
 end tell
 
 tell application "Spotify"
