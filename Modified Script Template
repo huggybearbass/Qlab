@@ -1,14 +1,15 @@
--- tell application id "com.figure53.qlab.4"
-tell front workspace
-	-- set spotifyLink to notes of cue "sundayLink"
-	-- set spotifyLink to notes of cue "youthLink"
-	-- set spotifyLink to notes of cue "espanolLink"
-	-- set spotifyLink to notes of cue "vibesLink"
-	-- set spotifyLink to notes of cue "twentyOneDaysLink"
+tell application id "com.figure53.qlab.4"
+	tell front workspace
+		-- set spotifyLink to notes of cue "sundayLink"
+		-- set spotifyLink to notes of cue "youthLink"
+		-- set spotifyLink to notes of cue "espanolLink"
+		-- set spotifyLink to notes of cue "vibesLink"
+		-- set spotifyLink to notes of cue "twentyOneDaysLink"
+	end tell
 end tell
 
 tell application "Spotify"
-  if sound volume is 0 then
+	if sound volume is 0 then
 		if shuffling is false then
 			set shuffling to true
 		end if
