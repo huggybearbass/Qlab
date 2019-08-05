@@ -14,7 +14,7 @@ tell application "Spotify"
 		if shuffling is false then
 			set shuffling to true
 		end if
-		play track "spotifyLink"
+		play track spotifyLink
 		repeat until sound volume is 100
 			set d to sound volume + 2
 			set sound volume to d
@@ -32,7 +32,7 @@ tell application "Spotify"
 		if shuffling is false then
 			set shuffling to true
 		end if
-		play track "spotifyLink"
+		play track spotifyLink
 		repeat until sound volume is 100
 			set d to sound volume + 2
 			set sound volume to d
